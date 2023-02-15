@@ -7,9 +7,8 @@ on:
   workflow_dispatch: ~
 
 jobs:
-  Fetch Remote Files:
+  Fetch-Remote-Files:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout source
         uses: actions/checkout@master
@@ -25,6 +24,7 @@ jobs:
 
       - name: Fetch Remote Files
         run: |
+          export FILE_PATH="${{ vars.FILE_PATH }}"
           python main.py
 
       - name: Commit changes
