@@ -36,7 +36,7 @@ async def save_file(file_name: str) -> None:
 
 
 async def save_file_list() -> None:
-    async with aiofiles.open("files.txt", "r", encoding="utf-8") as f:
+    async with aiofiles.open("src/files.txt", "r", encoding="utf-8") as f:
         file_list = (await f.read()).splitlines()
 
     tasks = [save_file(file) for file in file_list]
