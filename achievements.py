@@ -9,6 +9,7 @@ achievements.py https://github.com/KimigaiiWuyi/GenshinUID/blob/main/GenshinUID/
 import json
 import warnings
 from pathlib import Path
+from typing import List
 
 from openpyxl import Workbook, load_workbook
 from openpyxl.worksheet.worksheet import Worksheet
@@ -38,32 +39,29 @@ class Achievement(BaseAchievement):
 
 
 class TaskAchievement(BaseAchievement):
-    task: str
+    task: List[str]
 
 
 def load_daily_achievements():
     is_first = False
     for row in range(3, 100):
         ach = TaskAchievement(
-            task=ws_daily.cell(row, 3).value or "",
+            task=[],
             name=ws_daily.cell(row, 4).value or "",
             desc=ws_daily.cell(row, 5).value or "",
             guide=ws_daily.cell(row, 6).value or "",
             link=ws_daily.cell(row, 6).hyperlink.target if ws_daily.cell(row, 6).hyperlink else '',
         )
-        if not ach.task:
+        task = ws_daily.cell(row, 3).value or ""
+        if not task:
             if is_first:
                 break
             is_first = True
             continue
         else:
             is_first = False
-        task_list = ach.task.split('\n')
-        for t in task_list:
-            if t.startswith('('):
-                continue
-            ach.task = t
-            result_daily.append(ach.dict())
+        ach.task = [i for i in task.split('\n') if not i.startswith('(')]
+        result_daily.append(ach.dict())
 
 
 def load_all_achievements(book: Worksheet, loop: int, bn: int, an: int, dn: int, gn: int):
