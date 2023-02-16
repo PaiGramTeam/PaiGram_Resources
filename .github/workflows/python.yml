@@ -26,6 +26,7 @@ jobs:
         run: |
           export FILE_PATH="${{ vars.FILE_PATH }}"
           python main.py
+          cp calendar.json Resources/calendar.json
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
