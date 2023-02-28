@@ -28,14 +28,15 @@ jobs:
           python main.py
           python achievements.py
           cp src/calendar.json Resources/calendar.json
+          cp src/birthday.json Resources/birthday.json
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
           author_name: github-actions[bot]
           author_email: github-actions[bot]@users.noreply.github.com
+          push: '--force'
           new_branch: 'remote'
-          tag_push: '--force'
           message: ':sparkles: Fetch Remote Files'
           add: |
             'Resources'
