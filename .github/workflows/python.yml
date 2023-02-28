@@ -35,7 +35,7 @@ jobs:
         with:
           author_name: github-actions[bot]
           author_email: github-actions[bot]@users.noreply.github.com
-          push: '--force'
+          push: 'origin remote --force'
           new_branch: 'remote'
           message: ':sparkles: Fetch Remote Files'
           add: |
