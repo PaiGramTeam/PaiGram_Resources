@@ -23,7 +23,7 @@ client = AsyncClient(headers=HEADER)
 async def get_file_content(path: str) -> str:
     url = FILE_PATH.format(PATH=path)
     print(url)
-    resp = await client.get(url)
+    resp = await client.get(url, follow_redirects=True)
     return resp.text.replace("\r\n", "\n")
 
 
