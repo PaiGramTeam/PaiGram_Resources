@@ -1,0 +1,105 @@
+import asyncio
+import json
+from pathlib import Path
+
+from bs4 import BeautifulSoup
+from httpx import AsyncClient
+
+save_path = Path("Resources")
+
+headers = {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0"
+}
+client = AsyncClient()
+
+
+async def get_name_list():
+    name_list = []
+    res = await client.get(
+        "https://sg-public-api.hoyolab.com/event/simulatoros/config?lang=zh-cn"
+    )
+    res = res.json()
+    for avatar in res["data"]["all_avatar"]:
+        if avatar["name"] != "旅行者":
+            name_list.append(avatar["name"])
+    return name_list
+
+
+async def get_material_data():
+    """
+    角色升级素材与天赋素材
+    90级升级材料的数量：
+    碎屑x1，断片x9，块x9，本体x6，
+    摩拉x2092530，紫书x419，
+    特产x168，
+    初级怪物素材x18，中级怪物素材x30，高级怪物素材x36，
+    世界boss素材x46
+
+    天赋10-10-10升级材料数量：
+    初级天赋书x9，中级天赋书x63，高级天赋书x114，皇冠x3，
+    摩拉x4957500，
+    初级怪物素材x18，中级怪物素材x66，高级怪物素材x93，
+    周本boss素材x18
+    """
+    data = {"status": 0, "data": {}}
+    # names = ["钟离", "纳西妲"]
+    for name in await get_name_list():
+        try:
+            re = await client.get(
+                f"https://wiki.biligame.com/ys/{name}", headers=headers
+            )
+            soup = BeautifulSoup(re.text, "html.parser")
+            ascension_materials = soup.select(
+                ".tuPo > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(2) > div:nth-child(1) > div:nth-child(2) >"
+                "div:nth-child(3) > a:nth-child(1) > font:nth-child(1)"
+            )[0].next[0:4]
+            level_up_materials = soup.select(
+                ".tuPo > tbody:nth-child(1) > tr:nth-child(5) > td:nth-child(2) > div:nth-child(1) > div:nth-child(3) >"
+                "div:nth-child(3) > a:nth-child(1) > font:nth-child(1)"
+            )[0].next
+            materials_1 = soup.select(
+                ".tuPo > tbody:nth-child(1) > tr:nth-child(5) > td:nth-child(2) > div:nth-child(1) > div:nth-child(4) >"
+                "div:nth-child(3) > a:nth-child(1) > font:nth-child(1)"
+            )[0].next
+            materials_2 = soup.select(
+                ".tuPo > tbody:nth-child(1) > tr:nth-child(5) > td:nth-child(2) > div:nth-child(1) > div:nth-child(5) >"
+                "div:nth-child(3) > a:nth-child(1) > font:nth-child(1)"
+            )[0].next
+            materials_3 = soup.select(
+                ".tuPo > tbody:nth-child(1) > tr:nth-child(7) > td:nth-child(2) > div:nth-child(1) > div:nth-child(5) >"
+                "div:nth-child(3) > a:nth-child(1) > font:nth-child(1)"
+            )[0].next
+            materials_4 = soup.select(
+                ".tuPo > tbody:nth-child(1) > tr:nth-child(14) > td:nth-child(2) > div:nth-child(1) > div:nth-child("
+                "5) >"
+                "div:nth-child(3) > a:nth-child(1) > font:nth-child(1)"
+            )[0].next
+            talent_upgrade_1 = soup.select(
+                ".visible-md > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(2) > "
+                "td:nth-child(2) > div:nth-child(2) > div:nth-child(3) > a:nth-child(1) > font:nth-child(1)"
+            )[0].next
+            talent_upgrade_2 = soup.select(
+                ".visible-md > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(2) > "
+                "td:nth-child(4) > div:nth-child(4) > div:nth-child(3) > a:nth-child(1) > font:nth-child(1)"
+            )[0].next
+            data["data"][name] = {
+                "ascension_materials": ascension_materials,
+                "level_up_materials": level_up_materials,
+                "materials": [materials_1, materials_2, materials_3, materials_4],
+                "talent": [talent_upgrade_1[1:3], talent_upgrade_2],
+            }
+            # print(f"{name} 的培养素材爬取成功。")
+        except (IndexError, ValueError):
+            continue
+    return data
+
+
+def save_roles_materials(data: dict):
+    save_path.mkdir(parents=True, exist_ok=True)
+    with open(save_path / "roles_material.json", "w") as m_j:
+        json.dump(data, m_j, ensure_ascii=False)
+
+
+if __name__ == "__main__":
+    roles_data = asyncio.run(get_material_data())
+    save_roles_materials(roles_data)
