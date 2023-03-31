@@ -22,82 +22,29 @@ from httpx import AsyncClient
 """
 
 save_path = Path("Resources")
-name_list = [
-    "神里绫华",
-    "琴",
-    "丽莎",
-    "芭芭拉",
-    "凯亚",
-    "迪卢克",
-    "雷泽",
-    "安柏",
-    "温迪",
-    "香菱",
-    "北斗",
-    "行秋",
-    "魈",
-    "凝光",
-    "可莉",
-    "钟离",
-    "菲谢尔",
-    "班尼特",
-    "达达利亚",
-    "诺艾尔",
-    "七七",
-    "重云",
-    "甘雨",
-    "阿贝多",
-    "迪奥娜",
-    "莫娜",
-    "刻晴",
-    "砂糖",
-    "辛焱",
-    "罗莎莉亚",
-    "胡桃",
-    "枫原万叶",
-    "烟绯",
-    "宵宫",
-    "托马",
-    "优菈",
-    "雷电将军",
-    "早柚",
-    "珊瑚宫心海",
-    "五郎",
-    "九条裟罗",
-    "荒泷一斗",
-    "八重神子",
-    "鹿野院平藏",
-    "夜兰",
-    "埃洛伊",
-    "申鹤",
-    "云堇",
-    "久岐忍",
-    "神里绫人",
-    "柯莱",
-    "多莉",
-    "提纳里",
-    "妮露",
-    "赛诺",
-    "坎蒂丝",
-    "纳西妲",
-    "莱依拉",
-    "流浪者",
-    "珐露珊",
-    "瑶瑶",
-    "艾尔海森",
-    "迪希雅",
-    "米卡",
-]
+
+headers = {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0"
+}
+client = AsyncClient()
+
+
+async def get_name_list():
+    name_list = []
+    res = await client.get(
+        "https://sg-public-api.hoyolab.com/event/simulatoros/config?lang=zh-cn"
+    )
+    res = res.json()
+    for avatar in res["data"]["all_avatar"]:
+        if avatar["name"] != "旅行者":
+            name_list.append(avatar["name"])
+    return name_list
 
 
 async def get_material_data():
-    client = AsyncClient()
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0"
-    }
     data = {"status": 0, "data": {}}
     # names = ["钟离", "纳西妲"]
-    for name in name_list:
+    for name in await get_name_list():
         try:
             re = await client.get(
                 f"https://wiki.biligame.com/ys/{name}", headers=headers
