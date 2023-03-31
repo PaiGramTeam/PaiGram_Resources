@@ -27,6 +27,7 @@ jobs:
           export FILE_PATH="${{ vars.FILE_PATH }}"
           python main.py
           python achievements.py
+          python roles_material.py
           cp src/calendar.json Resources/calendar.json
           cp src/birthday.json Resources/birthday.json
 
