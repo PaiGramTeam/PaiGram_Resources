@@ -5,22 +5,6 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 from httpx import AsyncClient
 
-"""
-角色升级素材与天赋素材
-90级升级材料的数量：
-碎屑x1，断片x9，块x9，本体x6，
-摩拉x2092530，紫书x419，
-特产x168，
-初级怪物素材x18，中级怪物素材x30，高级怪物素材x36，
-世界boss素材x46
-
-天赋10-10-10升级材料数量：
-初级天赋书x9，中级天赋书x63，高级天赋书x114，皇冠x3，
-摩拉x4957500，
-初级怪物素材x18，中级怪物素材x66，高级怪物素材x93，
-周本boss素材x18
-"""
-
 save_path = Path("Resources")
 
 headers = {
@@ -42,6 +26,21 @@ async def get_name_list():
 
 
 async def get_material_data():
+    """
+    角色升级素材与天赋素材
+    90级升级材料的数量：
+    碎屑x1，断片x9，块x9，本体x6，
+    摩拉x2092530，紫书x419，
+    特产x168，
+    初级怪物素材x18，中级怪物素材x30，高级怪物素材x36，
+    世界boss素材x46
+
+    天赋10-10-10升级材料数量：
+    初级天赋书x9，中级天赋书x63，高级天赋书x114，皇冠x3，
+    摩拉x4957500，
+    初级怪物素材x18，中级怪物素材x66，高级怪物素材x93，
+    周本boss素材x18
+    """
     data = {"status": 0, "data": {}}
     # names = ["钟离", "纳西妲"]
     for name in await get_name_list():
