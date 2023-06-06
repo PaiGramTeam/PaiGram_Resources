@@ -6,7 +6,8 @@ from bs4 import BeautifulSoup
 from httpx import AsyncClient
 
 save_path = Path("Resources")
-
+avatar_data_path = save_path / "ExcelBinOutput" / "AvatarExcelConfigData.json"
+zh_lang_path = save_path / "TextMap" / "TextMapCHS.json"
 headers = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0"
 }
@@ -14,14 +15,19 @@ client = AsyncClient()
 
 
 async def get_name_list():
+    ignore_name_list = ["旅行者"]
     name_list = []
-    res = await client.get(
-        "https://sg-public-api.hoyolab.com/event/simulatoros/config?lang=zh-cn"
-    )
-    res = res.json()
-    for avatar in res["data"]["all_avatar"]:
-        if avatar["name"] != "旅行者":
-            name_list.append(avatar["name"])
+    with open(zh_lang_path, "r", encoding="utf-8") as f:
+        zh_lang = json.load(f)
+    with open(avatar_data_path, "r", encoding="utf-8") as f:
+        avatar_data = json.load(f)
+    for avatar in avatar_data:
+        if avatar["featureTagGroupID"] == 10000001:
+            # 未上线角色
+            continue
+        avatar_name = zh_lang[str(avatar["nameTextMapHash"])]
+        if avatar_name not in ignore_name_list and avatar_name not in name_list:
+            name_list.append(avatar_name)
     return name_list
 
 
