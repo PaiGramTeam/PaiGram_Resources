@@ -1,7 +1,9 @@
 ExcelBinOutput/AvatarExcelConfigData.json
+ExcelBinOutput/AvatarPromoteExcelConfigData.json
 ExcelBinOutput/AvatarSkillDepotExcelConfigData.json
 ExcelBinOutput/AvatarSkillExcelConfigData.json
 ExcelBinOutput/MaterialExcelConfigData.json
+ExcelBinOutput/ProudSkillExcelConfigData.json
 TextMap/TextMapCHS.json
 TextMap/TextMapCHT.json
 TextMap/TextMapDE.json
