@@ -15,6 +15,7 @@ TextMap/TextMapJP.json
 TextMap/TextMapKR.json
 TextMap/TextMapPT.json
 TextMap/TextMapRU.json
-TextMap/TextMapTH.json
+TextMap/TextMapTH_0.json
+TextMap/TextMapTH_1.json
 TextMap/TextMapTR.json
 TextMap/TextMapVI.json

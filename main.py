@@ -6,6 +6,8 @@ from pathlib import Path
 from dotenv import load_dotenv
 from httpx import AsyncClient
 
+from fix_map import fix_map
+
 # Load .env file
 load_dotenv()
 
@@ -17,14 +19,14 @@ HEADER = {
 }
 if GITHUB_TOKEN:
     HEADER["Authorization"] = f"token {GITHUB_TOKEN}"
-client = AsyncClient(headers=HEADER)
+client = AsyncClient(headers=HEADER, timeout=300)
 
 
 async def get_file_content(path: str) -> str:
     url = FILE_PATH.format(PATH=path)
     print(url)
     resp = await client.get(url, follow_redirects=True)
-    return resp.text.replace("\r\n", "\n")
+    return fix_map(resp.text.replace("\r\n", "\n"))
 
 
 async def save_file(file_name: str) -> None:
