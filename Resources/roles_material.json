@@ -1,0 +1,1405 @@
+{
+    "status": 0,
+    "data": {
+        "神里绫华": {
+            "ascension_materials": "哀叙冰玉",
+            "level_up_materials": "恒常机关之心",
+            "materials": [
+                "绯樱绣球",
+                "破旧的刀镡",
+                "影打刀镡",
+                "名刀镡"
+            ],
+            "talent": [
+                "风雅",
+                "血玉之枝"
+            ]
+        },
+        "琴": {
+            "ascension_materials": "自在松石",
+            "level_up_materials": "飓风之种",
+            "materials": [
+                "蒲公英籽",
+                "破损的面具",
+                "污秽的面具",
+                "不祥的面具"
+            ],
+            "talent": [
+                "抗争",
+                "东风之翎"
+            ]
+        },
+        "丽莎": {
+            "ascension_materials": "最胜紫晶",
+            "level_up_materials": "雷光棱镜",
+            "materials": [
+                "落落莓",
+                "史莱姆凝液",
+                "史莱姆清",
+                "史莱姆原浆"
+            ],
+            "talent": [
+                "诗文",
+                "东风之爪"
+            ]
+        },
+        "芭芭拉": {
+            "ascension_materials": "涤净青金",
+            "level_up_materials": "净水之心",
+            "materials": [
+                "慕风蘑菇",
+                "导能绘卷",
+                "封魔绘卷",
+                "禁咒绘卷"
+            ],
+            "talent": [
+                "自由",
+                "北风之环"
+            ]
+        },
+        "凯亚": {
+            "ascension_materials": "哀叙冰玉",
+            "level_up_materials": "极寒之核",
+            "materials": [
+                "嘟嘟莲",
+                "寻宝鸦印",
+                "藏银鸦印",
+                "攫金鸦印"
+            ],
+            "talent": [
+                "诗文",
+                "北风的魂匣"
+            ]
+        },
+        "迪卢克": {
+            "ascension_materials": "燃愿玛瑙",
+            "level_up_materials": "常燃火种",
+            "materials": [
+                "小灯草",
+                "新兵的徽记",
+                "士官的徽记",
+                "尉官的徽记"
+            ],
+            "talent": [
+                "抗争",
+                "东风之翎"
+            ]
+        },
+        "雷泽": {
+            "ascension_materials": "最胜紫晶",
+            "level_up_materials": "雷光棱镜",
+            "materials": [
+                "钩钩果",
+                "破损的面具",
+                "污秽的面具",
+                "不祥的面具"
+            ],
+            "talent": [
+                "抗争",
+                "东风之爪"
+            ]
+        },
+        "安柏": {
+            "ascension_materials": "燃愿玛瑙",
+            "level_up_materials": "常燃火种",
+            "materials": [
+                "小灯草",
+                "牢固的箭簇",
+                "锐利的箭簇",
+                "历战的箭簇"
+            ],
+            "talent": [
+                "自由",
+                "东风的吐息"
+            ]
+        },
+        "温迪": {
+            "ascension_materials": "自在松石",
+            "level_up_materials": "飓风之种",
+            "materials": [
+                "塞西莉亚花",
+                "史莱姆凝液",
+                "史莱姆清",
+                "史莱姆原浆"
+            ],
+            "talent": [
+                "诗文",
+                "北风之尾"
+            ]
+        },
+        "香菱": {
+            "ascension_materials": "燃愿玛瑙",
+            "level_up_materials": "常燃火种",
+            "materials": [
+                "绝云椒椒",
+                "史莱姆凝液",
+                "史莱姆清",
+                "史莱姆原浆"
+            ],
+            "talent": [
+                "勤劳",
+                "东风之爪"
+            ]
+        },
+        "北斗": {
+            "ascension_materials": "最胜紫晶",
+            "level_up_materials": "雷光棱镜",
+            "materials": [
+                "夜泊石",
+                "寻宝鸦印",
+                "藏银鸦印",
+                "攫金鸦印"
+            ],
+            "talent": [
+                "黄金",
+                "东风的吐息"
+            ]
+        },
+        "行秋": {
+            "ascension_materials": "涤净青金",
+            "level_up_materials": "净水之心",
+            "materials": [
+                "霓裳花",
+                "破损的面具",
+                "污秽的面具",
+                "不祥的面具"
+            ],
+            "talent": [
+                "黄金",
+                "北风之尾"
+            ]
+        },
+        "魈": {
+            "ascension_materials": "自在松石",
+            "level_up_materials": "未熟之玉",
+            "materials": [
+                "清心",
+                "史莱姆凝液",
+                "史莱姆清",
+                "史莱姆原浆"
+            ],
+            "talent": [
+                "繁荣",
+                "武炼之魂·孤影"
+            ]
+        },
+        "凝光": {
+            "ascension_materials": "坚牢黄玉",
+            "level_up_materials": "玄岩之塔",
+            "materials": [
+                "琉璃百合",
+                "新兵的徽记",
+                "士官的徽记",
+                "尉官的徽记"
+            ],
+            "talent": [
+                "繁荣",
+                "北风的魂匣"
+            ]
+        },
+        "可莉": {
+            "ascension_materials": "燃愿玛瑙",
+            "level_up_materials": "常燃火种",
+            "materials": [
+                "慕风蘑菇",
+                "导能绘卷",
+                "封魔绘卷",
+                "禁咒绘卷"
+            ],
+            "talent": [
+                "自由",
+                "北风之环"
+            ]
+        },
+        "钟离": {
+            "ascension_materials": "坚牢黄玉",
+            "level_up_materials": "玄岩之塔",
+            "materials": [
+                "石珀",
+                "史莱姆凝液",
+                "史莱姆清",
+                "史莱姆原浆"
+            ],
+            "talent": [
+                "黄金",
+                "吞天之鲸·只角"
+            ]
+        },
+        "菲谢尔": {
+            "ascension_materials": "最胜紫晶",
+            "level_up_materials": "雷光棱镜",
+            "materials": [
+                "小灯草",
+                "牢固的箭簇",
+                "锐利的箭簇",
+                "历战的箭簇"
+            ],
+            "talent": [
+                "诗文",
+                "北风的魂匣"
+            ]
+        },
+        "班尼特": {
+            "ascension_materials": "燃愿玛瑙",
+            "level_up_materials": "常燃火种",
+            "materials": [
+                "风车菊",
+                "寻宝鸦印",
+                "藏银鸦印",
+                "攫金鸦印"
+            ],
+            "talent": [
+                "抗争",
+                "东风之翎"
+            ]
+        },
+        "达达利亚": {
+            "ascension_materials": "涤净青金",
+            "level_up_materials": "净水之心",
+            "materials": [
+                "星螺",
+                "新兵的徽记",
+                "士官的徽记",
+                "尉官的徽记"
+            ],
+            "talent": [
+                "自由",
+                "魔王之刃·残片"
+            ]
+        },
+        "诺艾尔": {
+            "ascension_materials": "坚牢黄玉",
+            "level_up_materials": "玄岩之塔",
+            "materials": [
+                "落落莓",
+                "破损的面具",
+                "污秽的面具",
+                "不祥的面具"
+            ],
+            "talent": [
+                "抗争",
+                "东风之爪"
+            ]
+        },
+        "七七": {
+            "ascension_materials": "哀叙冰玉",
+            "level_up_materials": "极寒之核",
+            "materials": [
+                "琉璃袋",
+                "导能绘卷",
+                "封魔绘卷",
+                "禁咒绘卷"
+            ],
+            "talent": [
+                "繁荣",
+                "北风之尾"
+            ]
+        },
+        "重云": {
+            "ascension_materials": "哀叙冰玉",
+            "level_up_materials": "极寒之核",
+            "materials": [
+                "石珀",
+                "破损的面具",
+                "污秽的面具",
+                "不祥的面具"
+            ],
+            "talent": [
+                "勤劳",
+                "东风的吐息"
+            ]
+        },
+        "甘雨": {
+            "ascension_materials": "哀叙冰玉",
+            "level_up_materials": "极寒之核",
+            "materials": [
+                "清心",
+                "骗骗花蜜",
+                "微光花蜜",
+                "原素花蜜"
+            ],
+            "talent": [
+                "勤劳",
+                "武炼之魂·孤影"
+            ]
+        },
+        "阿贝多": {
+            "ascension_materials": "坚牢黄玉",
+            "level_up_materials": "玄岩之塔",
+            "materials": [
+                "塞西莉亚花",
+                "导能绘卷",
+                "封魔绘卷",
+                "禁咒绘卷"
+            ],
+            "talent": [
+                "诗文",
+                "吞天之鲸·只角"
+            ]
+        },
+        "迪奥娜": {
+            "ascension_materials": "哀叙冰玉",
+            "level_up_materials": "极寒之核",
+            "materials": [
+                "嘟嘟莲",
+                "牢固的箭簇",
+                "锐利的箭簇",
+                "历战的箭簇"
+            ],
+            "talent": [
+                "自由",
+                "魔王之刃·残片"
+            ]
+        },
+        "莫娜": {
+            "ascension_materials": "涤净青金",
+            "level_up_materials": "净水之心",
+            "materials": [
+                "慕风蘑菇",
+                "骗骗花蜜",
+                "微光花蜜",
+                "原素花蜜"
+            ],
+            "talent": [
+                "抗争",
+                "北风之环"
+            ]
+        },
+        "刻晴": {
+            "ascension_materials": "最胜紫晶",
+            "level_up_materials": "雷光棱镜",
+            "materials": [
+                "石珀",
+                "骗骗花蜜",
+                "微光花蜜",
+                "原素花蜜"
+            ],
+            "talent": [
+                "繁荣",
+                "北风之环"
+            ]
+        },
+        "砂糖": {
+            "ascension_materials": "自在松石",
+            "level_up_materials": "飓风之种",
+            "materials": [
+                "风车菊",
+                "骗骗花蜜",
+                "微光花蜜",
+                "原素花蜜"
+            ],
+            "talent": [
+                "自由",
+                "北风的魂匣"
+            ]
+        },
+        "辛焱": {
+            "ascension_materials": "燃愿玛瑙",
+            "level_up_materials": "常燃火种",
+            "materials": [
+                "琉璃袋",
+                "寻宝鸦印",
+                "藏银鸦印",
+                "攫金鸦印"
+            ],
+            "talent": [
+                "黄金",
+                "吞天之鲸·只角"
+            ]
+        },
+        "罗莎莉亚": {
+            "ascension_materials": "哀叙冰玉",
+            "level_up_materials": "极寒之核",
+            "materials": [
+                "落落莓",
+                "新兵的徽记",
+                "士官的徽记",
+                "尉官的徽记"
+            ],
+            "talent": [
+                "诗文",
+                "武炼之魂·孤影"
+            ]
+        },
+        "胡桃": {
+            "ascension_materials": "燃愿玛瑙",
+            "level_up_materials": "未熟之玉",
+            "materials": [
+                "霓裳花",
+                "骗骗花蜜",
+                "微光花蜜",
+                "原素花蜜"
+            ],
+            "talent": [
+                "勤劳",
+                "魔王之刃·残片"
+            ]
+        },
+        "枫原万叶": {
+            "ascension_materials": "自在松石",
+            "level_up_materials": "魔偶机心",
+            "materials": [
+                "海灵芝",
+                "寻宝鸦印",
+                "藏银鸦印",
+                "攫金鸦印"
+            ],
+            "talent": [
+                "勤劳",
+                "鎏金之鳞"
+            ]
+        },
+        "烟绯": {
+            "ascension_materials": "燃愿玛瑙",
+            "level_up_materials": "未熟之玉",
+            "materials": [
+                "夜泊石",
+                "寻宝鸦印",
+                "藏银鸦印",
+                "攫金鸦印"
+            ],
+            "talent": [
+                "黄金",
+                "血玉之枝"
+            ]
+        },
+        "宵宫": {
+            "ascension_materials": "燃愿玛瑙",
+            "level_up_materials": "阴燃之珠",
+            "materials": [
+                "鸣草",
+                "导能绘卷",
+                "封魔绘卷",
+                "禁咒绘卷"
+            ],
+            "talent": [
+                "浮世",
+                "龙王之冕"
+            ]
+        },
+        "托马": {
+            "ascension_materials": "燃愿玛瑙",
+            "level_up_materials": "阴燃之珠",
+            "materials": [
+                "幽灯蕈",
+                "寻宝鸦印",
+                "藏银鸦印",
+                "攫金鸦印"
+            ],
+            "talent": [
+                "浮世",
+                "狱火之蝶"
+            ]
+        },
+        "优菈": {
+            "ascension_materials": "哀叙冰玉",
+            "level_up_materials": "晶凝之华",
+            "materials": [
+                "蒲公英籽",
+                "破损的面具",
+                "污秽的面具",
+                "不祥的面具"
+            ],
+            "talent": [
+                "抗争",
+                "龙王之冕"
+            ]
+        },
+        "雷电将军": {
+            "ascension_materials": "最胜紫晶",
+            "level_up_materials": "雷霆数珠",
+            "materials": [
+                "天云草实",
+                "破旧的刀镡",
+                "影打刀镡",
+                "名刀镡"
+            ],
+            "talent": [
+                "天光",
+                "熔毁之刻"
+            ]
+        },
+        "早柚": {
+            "ascension_materials": "自在松石",
+            "level_up_materials": "魔偶机心",
+            "materials": [
+                "晶化骨髓",
+                "骗骗花蜜",
+                "微光花蜜",
+                "原素花蜜"
+            ],
+            "talent": [
+                "天光",
+                "鎏金之鳞"
+            ]
+        },
+        "珊瑚宫心海": {
+            "ascension_materials": "涤净青金",
+            "level_up_materials": "排异之露",
+            "materials": [
+                "珊瑚真珠",
+                "浮游干核",
+                "浮游幽核",
+                "浮游晶化核"
+            ],
+            "talent": [
+                "浮世",
+                "狱火之蝶"
+            ]
+        },
+        "五郎": {
+            "ascension_materials": "坚牢黄玉",
+            "level_up_materials": "恒常机关之心",
+            "materials": [
+                "珊瑚真珠",
+                "浮游干核",
+                "浮游幽核",
+                "浮游晶化核"
+            ],
+            "talent": [
+                "天光",
+                "熔毁之刻"
+            ]
+        },
+        "九条裟罗": {
+            "ascension_materials": "最胜紫晶",
+            "level_up_materials": "雷霆数珠",
+            "materials": [
+                "血斛",
+                "破损的面具",
+                "污秽的面具",
+                "不祥的面具"
+            ],
+            "talent": [
+                "风雅",
+                "灰烬之心"
+            ]
+        },
+        "荒泷一斗": {
+            "ascension_materials": "坚牢黄玉",
+            "level_up_materials": "兽境王器",
+            "materials": [
+                "鬼兜虫",
+                "史莱姆凝液",
+                "史莱姆清",
+                "史莱姆原浆"
+            ],
+            "talent": [
+                "风雅",
+                "灰烬之心"
+            ]
+        },
+        "八重神子": {
+            "ascension_materials": "最胜紫晶",
+            "level_up_materials": "龙嗣伪鳍",
+            "materials": [
+                "海灵芝",
+                "破旧的刀镡",
+                "影打刀镡",
+                "名刀镡"
+            ],
+            "talent": [
+                "天光",
+                "万劫之真意"
+            ]
+        },
+        "鹿野院平藏": {
+            "ascension_materials": "自在松石",
+            "level_up_materials": "符纹之齿",
+            "materials": [
+                "鬼兜虫",
+                "寻宝鸦印",
+                "藏银鸦印",
+                "攫金鸦印"
+            ],
+            "talent": [
+                "浮世",
+                "万劫之真意"
+            ]
+        },
+        "夜兰": {
+            "ascension_materials": "涤净青金",
+            "level_up_materials": "符纹之齿",
+            "materials": [
+                "星螺",
+                "新兵的徽记",
+                "士官的徽记",
+                "尉官的徽记"
+            ],
+            "talent": [
+                "繁荣",
+                "鎏金之鳞"
+            ]
+        },
+        "绮良良": {
+            "ascension_materials": "生长碧翡",
+            "level_up_materials": "常暗圆环",
+            "materials": [
+                "天云草实",
+                "浮游干核",
+                "浮游幽核",
+                "浮游晶化核"
+            ],
+            "talent": [
+                "浮世",
+                "亘古树海之一瞬"
+            ]
+        },
+        "埃洛伊": {
+            "ascension_materials": "哀叙冰玉",
+            "level_up_materials": "晶凝之华",
+            "materials": [
+                "晶化骨髓",
+                "浮游干核",
+                "浮游幽核",
+                "浮游晶化核"
+            ],
+            "talent": [
+                "自由",
+                "熔毁之刻"
+            ]
+        },
+        "申鹤": {
+            "ascension_materials": "哀叙冰玉",
+            "level_up_materials": "龙嗣伪鳍",
+            "materials": [
+                "清心",
+                "骗骗花蜜",
+                "微光花蜜",
+                "原素花蜜"
+            ],
+            "talent": [
+                "繁荣",
+                "狱火之蝶"
+            ]
+        },
+        "云堇": {
+            "ascension_materials": "坚牢黄玉",
+            "level_up_materials": "兽境王器",
+            "materials": [
+                "琉璃百合",
+                "破损的面具",
+                "污秽的面具",
+                "不祥的面具"
+            ],
+            "talent": [
+                "勤劳",
+                "灰烬之心"
+            ]
+        },
+        "久岐忍": {
+            "ascension_materials": "最胜紫晶",
+            "level_up_materials": "符纹之齿",
+            "materials": [
+                "鸣草",
+                "浮游干核",
+                "浮游幽核",
+                "浮游晶化核"
+            ],
+            "talent": [
+                "风雅",
+                "祸神之禊泪"
+            ]
+        },
+        "神里绫人": {
+            "ascension_materials": "涤净青金",
+            "level_up_materials": "排异之露",
+            "materials": [
+                "绯樱绣球",
+                "破旧的刀镡",
+                "影打刀镡",
+                "名刀镡"
+            ],
+            "talent": [
+                "风雅",
+                "凶将之手眼"
+            ]
+        },
+        "柯莱": {
+            "ascension_materials": "生长碧翡",
+            "level_up_materials": "蕈王钩喙",
+            "materials": [
+                "树王圣体菇",
+                "牢固的箭簇",
+                "锐利的箭簇",
+                "历战的箭簇"
+            ],
+            "talent": [
+                "笃行",
+                "祸神之禊泪"
+            ]
+        },
+        "多莉": {
+            "ascension_materials": "最胜紫晶",
+            "level_up_materials": "藏雷野实",
+            "materials": [
+                "劫波莲",
+                "褪色红绸",
+                "镶边红绸",
+                "织金红绸"
+            ],
+            "talent": [
+                "巧思",
+                "血玉之枝"
+            ]
+        },
+        "提纳里": {
+            "ascension_materials": "生长碧翡",
+            "level_up_materials": "蕈王钩喙",
+            "materials": [
+                "月莲",
+                "蕈兽孢子",
+                "荧光孢粉",
+                "孢囊晶尘"
+            ],
+            "talent": [
+                "诤言",
+                "万劫之真意"
+            ]
+        },
+        "妮露": {
+            "ascension_materials": "涤净青金",
+            "level_up_materials": "永续机芯",
+            "materials": [
+                "帕蒂沙兰",
+                "蕈兽孢子",
+                "荧光孢粉",
+                "孢囊晶尘"
+            ],
+            "talent": [
+                "笃行",
+                "祸神之禊泪"
+            ]
+        },
+        "赛诺": {
+            "ascension_materials": "最胜紫晶",
+            "level_up_materials": "藏雷野实",
+            "materials": [
+                "圣金虫",
+                "导能绘卷",
+                "封魔绘卷",
+                "禁咒绘卷"
+            ],
+            "talent": [
+                "诤言",
+                "凶将之手眼"
+            ]
+        },
+        "坎蒂丝": {
+            "ascension_materials": "涤净青金",
+            "level_up_materials": "导光四面体",
+            "materials": [
+                "赤念果",
+                "褪色红绸",
+                "镶边红绸",
+                "织金红绸"
+            ],
+            "talent": [
+                "诤言",
+                "祸神之禊泪"
+            ]
+        },
+        "纳西妲": {
+            "ascension_materials": "生长碧翡",
+            "level_up_materials": "灭诤草蔓",
+            "materials": [
+                "劫波莲",
+                "蕈兽孢子",
+                "荧光孢粉",
+                "孢囊晶尘"
+            ],
+            "talent": [
+                "巧思",
+                "傀儡的悬丝"
+            ]
+        },
+        "莱依拉": {
+            "ascension_materials": "哀叙冰玉",
+            "level_up_materials": "永续机芯",
+            "materials": [
+                "月莲",
+                "导能绘卷",
+                "封魔绘卷",
+                "禁咒绘卷"
+            ],
+            "talent": [
+                "巧思",
+                "无心的渊镜"
+            ]
+        },
+        "流浪者": {
+            "ascension_materials": "自在松石",
+            "level_up_materials": "永续机芯",
+            "materials": [
+                "树王圣体菇",
+                "破旧的刀镡",
+                "影打刀镡",
+                "名刀镡"
+            ],
+            "talent": [
+                "笃行",
+                "空行的虚铃"
+            ]
+        },
+        "珐露珊": {
+            "ascension_materials": "自在松石",
+            "level_up_materials": "导光四面体",
+            "materials": [
+                "赤念果",
+                "褪色红绸",
+                "镶边红绸",
+                "织金红绸"
+            ],
+            "talent": [
+                "诤言",
+                "傀儡的悬丝"
+            ]
+        },
+        "瑶瑶": {
+            "ascension_materials": "生长碧翡",
+            "level_up_materials": "灭诤草蔓",
+            "materials": [
+                "绝云椒椒",
+                "史莱姆凝液",
+                "史莱姆清",
+                "史莱姆原浆"
+            ],
+            "talent": [
+                "勤劳",
+                "空行的虚铃"
+            ]
+        },
+        "艾尔海森": {
+            "ascension_materials": "生长碧翡",
+            "level_up_materials": "苍砾蕊羽",
+            "materials": [
+                "沙脂蛹",
+                "褪色红绸",
+                "镶边红绸",
+                "织金红绸"
+            ],
+            "talent": [
+                "巧思",
+                "无心的渊镜"
+            ]
+        },
+        "迪希雅": {
+            "ascension_materials": "燃愿玛瑙",
+            "level_up_materials": "导光四面体",
+            "materials": [
+                "沙脂蛹",
+                "褪色红绸",
+                "镶边红绸",
+                "织金红绸"
+            ],
+            "talent": [
+                "笃行",
+                "傀儡的悬丝"
+            ]
+        },
+        "米卡": {
+            "ascension_materials": "哀叙冰玉",
+            "level_up_materials": "苍砾蕊羽",
+            "materials": [
+                "钩钩果",
+                "新兵的徽记",
+                "士官的徽记",
+                "尉官的徽记"
+            ],
+            "talent": [
+                "诗文",
+                "无心的渊镜"
+            ]
+        },
+        "卡维": {
+            "ascension_materials": "生长碧翡",
+            "level_up_materials": "灭诤草蔓",
+            "materials": [
+                "悼灵花",
+                "蕈兽孢子",
+                "荧光孢粉",
+                "孢囊晶尘"
+            ],
+            "talent": [
+                "巧思",
+                "原初绿洲之初绽"
+            ]
+        },
+        "白术": {
+            "ascension_materials": "生长碧翡",
+            "level_up_materials": "常暗圆环",
+            "materials": [
+                "琉璃袋",
+                "蕈兽孢子",
+                "荧光孢粉",
+                "孢囊晶尘"
+            ],
+            "talent": [
+                "黄金",
+                "生长天地之蕨草"
+            ]
+        },
+        "琳妮特": {
+            "ascension_materials": "自在松石",
+            "level_up_materials": "奇械发条备件·歌裴莉娅",
+            "materials": [
+                "柔灯铃",
+                "啮合齿轮",
+                "机关正齿轮",
+                "奇械机芯齿轮"
+            ],
+            "talent": [
+                "秩序",
+                "亘古树海之一瞬"
+            ]
+        },
+        "林尼": {
+            "ascension_materials": "燃愿玛瑙",
+            "level_up_materials": "帝皇的决断",
+            "materials": [
+                "虹彩蔷薇",
+                "新兵的徽记",
+                "士官的徽记",
+                "尉官的徽记"
+            ],
+            "talent": [
+                "公平",
+                "原初绿洲之初绽"
+            ]
+        },
+        "菲米尼": {
+            "ascension_materials": "哀叙冰玉",
+            "level_up_materials": "奇械发条备件·科培琉司",
+            "materials": [
+                "海露花",
+                "异海凝珠",
+                "异海之块",
+                "异色结晶石"
+            ],
+            "talent": [
+                "正义",
+                "生长天地之蕨草"
+            ]
+        },
+        "莱欧斯利": {
+            "ascension_materials": "哀叙冰玉",
+            "level_up_materials": "「图比昂装置」",
+            "materials": [
+                "子探测单元",
+                "啮合齿轮",
+                "机关正齿轮",
+                "奇械机芯齿轮"
+            ],
+            "talent": [
+                "秩序",
+                "原初绿洲之初绽"
+            ]
+        },
+        "那维莱特": {
+            "ascension_materials": "涤净青金",
+            "level_up_materials": "原海麟角",
+            "materials": [
+                "幽光星星",
+                "异海凝珠",
+                "异海之块",
+                "异色结晶石"
+            ],
+            "talent": [
+                "公平",
+                "亘古树海之一瞬"
+            ]
+        },
+        "夏洛蒂": {
+            "ascension_materials": "哀叙冰玉",
+            "level_up_materials": "「图比昂装置」",
+            "materials": [
+                "苍晶螺",
+                "啮合齿轮",
+                "机关正齿轮",
+                "奇械机芯齿轮"
+            ],
+            "talent": [
+                "正义",
+                "无光丝线"
+            ]
+        },
+        "芙宁娜": {
+            "ascension_materials": "涤净青金",
+            "level_up_materials": "未能达成超越之水",
+            "materials": [
+                "湖光铃兰",
+                "骗骗花蜜",
+                "微光花蜜",
+                "原素花蜜"
+            ],
+            "talent": [
+                "正义",
+                "无光质块"
+            ]
+        },
+        "夏沃蕾": {
+            "ascension_materials": "燃愿玛瑙",
+            "level_up_materials": "原海麟角",
+            "materials": [
+                "柔灯铃",
+                "啮合齿轮",
+                "机关正齿轮",
+                "奇械机芯齿轮"
+            ],
+            "talent": [
+                "秩序",
+                "无光涡眼"
+            ]
+        },
+        "娜维娅": {
+            "ascension_materials": "坚牢黄玉",
+            "level_up_materials": "奇械发条备件·科培琉司",
+            "materials": [
+                "初露之源",
+                "异海凝珠",
+                "异海之块",
+                "异色结晶石"
+            ],
+            "talent": [
+                "公平",
+                "无光丝线"
+            ]
+        },
+        "嘉明": {
+            "ascension_materials": "燃愿玛瑙",
+            "level_up_materials": "帝皇的决断",
+            "materials": [
+                "星螺",
+                "史莱姆凝液",
+                "史莱姆清",
+                "史莱姆原浆"
+            ],
+            "talent": [
+                "繁荣",
+                "无光质块"
+            ]
+        },
+        "闲云": {
+            "ascension_materials": "自在松石",
+            "level_up_materials": "凝云鳞甲",
+            "materials": [
+                "清水玉",
+                "导能绘卷",
+                "封魔绘卷",
+                "禁咒绘卷"
+            ],
+            "talent": [
+                "黄金",
+                "无光涡眼"
+            ]
+        },
+        "千织": {
+            "ascension_materials": "坚牢黄玉",
+            "level_up_materials": "奇械发条备件·歌裴莉娅",
+            "materials": [
+                "血斛",
+                "浮游干核",
+                "浮游幽核",
+                "浮游晶化核"
+            ],
+            "talent": [
+                "天光",
+                "无光丝线"
+            ]
+        },
+        "希格雯": {
+            "ascension_materials": "涤净青金",
+            "level_up_materials": "未能达成超越之水",
+            "materials": [
+                "海露花",
+                "异海凝珠",
+                "异海之块",
+                "异色结晶石"
+            ],
+            "talent": [
+                "公平",
+                "无光涡眼"
+            ]
+        },
+        "阿蕾奇诺": {
+            "ascension_materials": "燃愿玛瑙",
+            "level_up_materials": "金色旋律的断章",
+            "materials": [
+                "虹彩蔷薇",
+                "新兵的徽记",
+                "士官的徽记",
+                "尉官的徽记"
+            ],
+            "talent": [
+                "秩序",
+                "残火灯烛"
+            ]
+        },
+        "赛索斯": {
+            "ascension_materials": "最胜紫晶",
+            "level_up_materials": "凝云鳞甲",
+            "materials": [
+                "万相石",
+                "褪色红绸",
+                "镶边红绸",
+                "织金红绸"
+            ],
+            "talent": [
+                "笃行",
+                "空行的虚铃"
+            ]
+        },
+        "克洛琳德": {
+            "ascension_materials": "最胜紫晶",
+            "level_up_materials": "原海麟角",
+            "materials": [
+                "幽光星星",
+                "异海凝珠",
+                "异海之块",
+                "异色结晶石"
+            ],
+            "talent": [
+                "正义",
+                "亘古树海之一瞬"
+            ]
+        },
+        "艾梅莉埃": {
+            "ascension_materials": "生长碧翡",
+            "level_up_materials": "金色旋律的断章",
+            "materials": [
+                "湖光铃兰",
+                "啮合齿轮",
+                "机关正齿轮",
+                "奇械机芯齿轮"
+            ],
+            "talent": [
+                "秩序",
+                "丝织之羽"
+            ]
+        },
+        "卡齐娜": {
+            "ascension_materials": "坚牢黄玉",
+            "level_up_materials": "过熟的火榴果",
+            "materials": [
+                "青蜜莓",
+                "卫从的木哨",
+                "战士的铁哨",
+                "龙冠武士的金哨"
+            ],
+            "talent": [
+                "纷争",
+                "残火灯烛"
+            ]
+        },
+        "基尼奇": {
+            "ascension_materials": "生长碧翡",
+            "level_up_materials": "过熟的火榴果",
+            "materials": [
+                "肉龙掌",
+                "稚嫩的尖齿",
+                "老练的坚齿",
+                "横行霸者的利齿"
+            ],
+            "talent": [
+                "焚燔",
+                "否定裁断"
+            ]
+        },
+        "玛拉妮": {
+            "ascension_materials": "涤净青金",
+            "level_up_materials": "受祝所缚之印",
+            "materials": [
+                "浪沫羽鳃",
+                "卫从的木哨",
+                "战士的铁哨",
+                "龙冠武士的金哨"
+            ],
+            "talent": [
+                "角逐",
+                "无光质块"
+            ]
+        },
+        "希诺宁": {
+            "ascension_materials": "坚牢黄玉",
+            "level_up_materials": "秘刻金纹的源核",
+            "materials": [
+                "灼灼彩菊",
+                "卫从的木哨",
+                "战士的铁哨",
+                "龙冠武士的金哨"
+            ],
+            "talent": [
+                "焚燔",
+                "无心的渊镜"
+            ]
+        },
+        "恰斯卡": {
+            "ascension_materials": "自在松石",
+            "level_up_materials": "深邃纠缠的凝视",
+            "materials": [
+                "枯叶紫英",
+                "稚嫩的尖齿",
+                "老练的坚齿",
+                "横行霸者的利齿"
+            ],
+            "talent": [
+                "纷争",
+                "丝织之羽"
+            ]
+        },
+        "欧洛伦": {
+            "ascension_materials": "最胜紫晶",
+            "level_up_materials": "受祝所缚之印",
+            "materials": [
+                "微光角菌",
+                "稚嫩的尖齿",
+                "老练的坚齿",
+                "横行霸者的利齿"
+            ],
+            "talent": [
+                "焚燔",
+                "无光丝线"
+            ]
+        },
+        "玛薇卡": {
+            "ascension_materials": "燃愿玛瑙",
+            "level_up_materials": "秘刻金纹的源核",
+            "materials": [
+                "枯叶紫英",
+                "卫从的木哨",
+                "战士的铁哨",
+                "龙冠武士的金哨"
+            ],
+            "talent": [
+                "角逐",
+                "蚀灭的灵犀"
+            ]
+        },
+        "茜特菈莉": {
+            "ascension_materials": "哀叙冰玉",
+            "level_up_materials": "谜土的护符",
+            "materials": [
+                "青蜜莓",
+                "稚嫩的尖齿",
+                "老练的坚齿",
+                "横行霸者的利齿"
+            ],
+            "talent": [
+                "焚燔",
+                "否定裁断"
+            ]
+        },
+        "蓝砚": {
+            "ascension_materials": "自在松石",
+            "level_up_materials": "秘刻金纹的源核",
+            "materials": [
+                "清水玉",
+                "骗骗花蜜",
+                "微光花蜜",
+                "原素花蜜"
+            ],
+            "talent": [
+                "勤劳",
+                "蚀灭的阳焰"
+            ]
+        },
+        "梦见月瑞希": {
+            "ascension_materials": "自在松石",
+            "level_up_materials": "谜土的护符",
+            "materials": [
+                "海灵芝",
+                "破旧的刀镡",
+                "影打刀镡",
+                "名刀镡"
+            ],
+            "talent": [
+                "浮世",
+                "残火灯烛"
+            ]
+        },
+        "伊安珊": {
+            "ascension_materials": "最胜紫晶",
+            "level_up_materials": "深邃纠缠的凝视",
+            "materials": [
+                "琉鳞石",
+                "卫从的木哨",
+                "战士的铁哨",
+                "龙冠武士的金哨"
+            ],
+            "talent": [
+                "角逐",
+                "否定裁断"
+            ]
+        },
+        "瓦雷莎": {
+            "ascension_materials": "最胜紫晶",
+            "level_up_materials": "龙像的无智核",
+            "materials": [
+                "云岩裂叶",
+                "稚嫩的尖齿",
+                "老练的坚齿",
+                "横行霸者的利齿"
+            ],
+            "talent": [
+                "纷争",
+                "蚀灭的鳞羽"
+            ]
+        },
+        "爱可菲": {
+            "ascension_materials": "哀叙冰玉",
+            "level_up_materials": "秘源积气喉",
+            "materials": [
+                "苍晶螺",
+                "啮合齿轮",
+                "机关正齿轮",
+                "奇械机芯齿轮"
+            ],
+            "talent": [
+                "正义",
+                "蚀灭的灵犀"
+            ]
+        },
+        "伊法": {
+            "ascension_materials": "自在松石",
+            "level_up_materials": "龙像的无智核",
+            "materials": [
+                "肉龙掌",
+                "稚嫩的尖齿",
+                "老练的坚齿",
+                "横行霸者的利齿"
+            ],
+            "talent": [
+                "纷争",
+                "升扬样本·战车"
+            ]
+        },
+        "玛薇卡(试用)": {
+            "ascension_materials": "哀叙冰玉",
+            "level_up_materials": "恒常机关之心",
+            "materials": [
+                "绯樱绣球",
+                "破旧的刀镡",
+                "影打刀镡",
+                "名刀镡"
+            ],
+            "talent": [
+                "勤劳",
+                "东风之爪"
+            ]
+        },
+        "胡桃(试用)": {
+            "ascension_materials": "哀叙冰玉",
+            "level_up_materials": "恒常机关之心",
+            "materials": [
+                "绯樱绣球",
+                "破旧的刀镡",
+                "影打刀镡",
+                "名刀镡"
+            ],
+            "talent": [
+                "勤劳",
+                "魔王之刃·残片"
+            ]
+        }
+    }
+}
