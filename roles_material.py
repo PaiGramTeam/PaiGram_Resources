@@ -89,7 +89,7 @@ async def get_up_data():
         t = data_map[pid]
         data["data"][avatar]["ascension_materials"] = material_data[t["costItems"][0]["id"]]
         data["data"][avatar]["level_up_materials"] = material_data[t["costItems"][1]["id"]]
-        data["data"][avatar]["materials"] = [material_data[i] for i in data_material_map[pid]]
+        data["data"][avatar]["materials"] = [material_data[i] for i in data_material_map[pid] if i]
 
 
 async def load_avatar_skill_depot_data() -> Dict[int, int]:

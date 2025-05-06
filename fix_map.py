@@ -46,7 +46,7 @@ KEYS_MAP = {
     "featureTagGroupID": "EOCNJBDLDMK",
     "avatarPromoteId": "ECMKJJIDKAE",
     # AvatarPromoteExcelConfigData
-    "costItems": "IGFEOKBEJCH",
+    "costItems": "FPIJIIENLBP",
     "promoteLevel": "AKPHFJACMIB",
     # ProudSkillExcelConfigData
     "level": "BHFAPOEDIDB",
